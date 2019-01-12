@@ -42,7 +42,7 @@ nav {
   flex-grow: 1;
 }
 
-span {
+header span {
   padding: 20px 10px;
 }
 
@@ -72,9 +72,20 @@ a{
   width: 1000px;
   height: 700px;
   align-items: center;
+  padding: 70px;
+}
+
+#product-heading {
+  width: 100%;
+}
+
+.product-image {
+  display: flex;
+  flex-direction: column;
 }
 
 .product-image img {
   width: 300px;
   height: 200px;
+  margin: 10px;
 }
