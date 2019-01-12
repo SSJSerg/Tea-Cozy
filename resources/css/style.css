@@ -54,6 +54,7 @@ a{
 /* Main Content */
 
 /* Mission */
+
 .mission {
   width: 1200px;
   height: 700px;
@@ -68,6 +69,7 @@ a{
 }
 
 /* Product Content  */
+
 .product {
   width: 1000px;
   height: 700px;
@@ -91,6 +93,7 @@ a{
 }
 
 /* Location Content */
+
 .location {
   background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg");
   width: 1200px;
@@ -106,4 +109,15 @@ a{
   opacity: 1.0;
   display: inline-flex;
   flex-direction: column;
+}
+
+/* Contact Content */
+.contact {
+  height: 200px;
+}
+
+/* Footer Content */
+footer {
+  text-align: left;
+  padding-left: 20px;
 }
