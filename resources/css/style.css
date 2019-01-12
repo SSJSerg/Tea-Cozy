@@ -16,6 +16,11 @@ body {
   flex-wrap: wrap;
 }
 
+h2, h4 {
+  margin: 0px;
+  padding: 10px;
+}
+
 /* Header */
 
 header {
@@ -48,9 +53,16 @@ a{
 
 /* Main Content */
 
-/* Mission
+/* Mission */
 .mission {
   width: 1200px;
   height: 700px;
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg");
+  align-items: center;
+  padding-top: 70px;
+  }
+
+#mission-statement {
+  width: 100%;
+  background-color: black;
 }
-*/
