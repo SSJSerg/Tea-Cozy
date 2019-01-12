@@ -16,7 +16,7 @@ body {
   flex-wrap: wrap;
 }
 
-h2, h4 {
+h2, h3, h4 {
   margin: 0px;
   padding: 10px;
 }
@@ -88,4 +88,22 @@ a{
   width: 300px;
   height: 200px;
   margin: 10px;
+}
+
+/* Location Content */
+.location {
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg");
+  width: 1200px;
+  height: 500px;
+  padding-top: 70px;
+}
+
+.locations {
+  width: 300px;
+  height: 300px;
+  background-color: black;
+  margin: 15px 10px;
+  opacity: 1.0;
+  display: inline-flex;
+  flex-direction: column;
 }
